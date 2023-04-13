@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="box">
+
+<!-- weather information -->
+    <header>
+      <input type="text" placeholder="Enter city name">
+      <button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </header>
+
+    <div class="invalid hide" id="invalid-city">
+      <p>Invalid city</p>
+    </div>
+
+    <section class="weather hide" id="weather-details">
+
+      <h3 class="date">Fri March 24 2023</h3>
+      <h2 class="city">lagos</h2>
+      <img src="" alt="icon" class="icon-image">
+
+      <h1 class="temperature"> 33</h1>
+      <h3 class="description"> clouds</h3>
+
+      <div class="col">
+
+        <div class="col-box">
+          <p class="feel">feels like</p>
+          <p class="feels-like-temp">34deg</p>
+        </div>
+
+        <div class="col-box">
+          <p class="wind">wind speed</p>
+          <p class=wind-speed>33</p>
+        </div>
+
+      </div>
+    </section>
+
+
+
+  </div>
+
+
+
+  <script src="app.js" charset="utf-8"> </script>
+</body>
+
+</html>
