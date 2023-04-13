@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+    min-height:100vh;
+}
+body {
+  font-family: cursive;
+  background: #29cdb5;
+}
+
+.box {
+  width: 100%;
+   max-width: 450px;
+  margin: 80px auto 0;
+  border-radius: 20px;
+  padding: 35px;
+  text-align: center;
+  background: #fff;
+  color: black;
+  font-weight: 900;
+}
+header {
+  width: 100%;
+  display: flex;
+}
+
+input[type="text"] {
+  flex: 1;
+  height: 50px;
+  background: #fff;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 17px;
+  padding: 10px 25px;
+  margin-right: 30px;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+button {
+  width: 50px;
+  min-height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #29cdb5;
+  color: #fff;
+  font-size: 20px;
+}
+.invalid {
+  color: red;
+  margin-top: 11px;
+  margin-left: 5px;
+  text-align: left !important;
+  font-size: 17px;
+}
+.weather {
+  margin-top: 40px;
+}
+.hide {
+  display: none;
+}
+.date {
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+.city {
+  font-size: 35px;
+}
+.temperature {
+  font-size: 17px;
+}
+.description {
+  font-size: 30px;
+  margin: 14px 0 12px;
+}
+img.icon-image {
+  margin: 8px 0;
+}
+.col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 20px 0;
+}
+.feel,
+.wind {
+  font-size: 17px;
+}
+.feels-like-temp,
+.wind-speed {
+  margin-top: 14px;
+  font-size: 17px;
+}
+/*
+@media screen and (max-width:768px){
+  body{
+    background: red;
+  }
+  .box {
+    display: block;
+    width: unset;
+    max-width: unset;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #29cdb5;
+    background-size:cover;
+    border-radius: 0;
+    color: white;
+  }
+
+  input[type="text"] {
+    height: 55px;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+  }
+  button {
+    width: 50px;
+    min-height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    color: #29cdb5;
+    font-size: 20px;
+  }
+
+  .weather,
+  .hide,
+  .city,
+  .date,
+  .description,
+  .col{
+    width: 100%;
+    line-height: 2;
+
+  }
+
+}
+
+
+@media screen and (max-width:425px) {
+body{
+  background: yellow;
+}
+} */
