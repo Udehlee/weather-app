@@ -22,7 +22,7 @@ let icon;// will be used to access the weather icon
 // get the url for the weather api and split it into various constant
 //input in into several constant
 
-const apiKeys = "d2d241ac6a296aebf2c41248109ffe9e";
+const apiKeys = "YOUR_API_KEY";
 const unit = "metric";
 const url = "https://api.openweathermap.org/data/2.5/weather?q=";
 
